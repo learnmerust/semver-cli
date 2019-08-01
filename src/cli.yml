@@ -1,0 +1,15 @@
+name: semver
+version: "1.0"
+author: ricky miller <ricky.miller@gmail.com>
+about: A Rust implementation of the https://semver.org/ specification
+args:
+    - increment:
+        short: i
+        long: increment
+        help: "Increment a version by the specified level.  Level can be one of: major, minor, patch, premajor, preminor, prepatch, or prerelease.  Default level is 'patch'. Only one version may be specified."
+        takes_value: true
+        default_value: none
+    - INPUT:
+        help: semver number
+        required: true
+        index: 1
