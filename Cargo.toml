@@ -3,6 +3,8 @@ name = "semver-cli"
 version = "0.1.0"
 authors = ["rickycodes <ricky.miller@gmail.com>"]
 edition = "2018"
+description = "A Rust CLI application for working with the semver specification"
+license = "MIT"
 
 [dependencies]
 clap = {version = "2.33", features = ["yaml"]}
