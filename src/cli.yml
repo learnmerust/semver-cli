@@ -6,7 +6,7 @@ args:
     - increment:
         short: i
         long: increment
-        help: "Increment a version by the specified level.  Level can be one of: major, minor, patch, premajor, preminor, prepatch, or prerelease.  Default level is 'patch'. Only one version may be specified."
+        help: "Increment a version by the specified level.  Level can be one of: major, minor, patch.  Default level is 'patch'. Only one version may be specified."
         takes_value: true
         default_value: none
     - INPUT:
