@@ -30,27 +30,32 @@ sys     0m3.627s
 ```
 Fast!
 
+### Installation
+```
+cargo install semver-cli
+```
+
 ### Disclaimer
-This still very much a work in progress, see: [Todo](#todo)
+This is still very much a work in progress, see: [Todo](#todo)
 
 ### Usage
 validate:
 ```
-semver 2.3.2
+semver-cli 2.3.2
 2.3.2
 ```
 invalidate:
 ```
-semver 100
+semver-cli 100
 -> no output
 ```
 increment:
 ```
-semver 2.3.1 --increment
+semver-cli 2.3.1 --increment
 2.3.2
-semver 2.3.1 --increment=minor
+semver-cli 2.3.1 --increment=minor
 2.4.0
-semver 2.3.1 --increment=major
+semver-cli 2.3.1 --increment=major
 3.0.0
 ```
 ### Todo
