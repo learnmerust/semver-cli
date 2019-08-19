@@ -1,4 +1,4 @@
-# semver-cli &middot; ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) [![Build Status](https://travis-ci.org/learnmerust/semver.svg?branch=master)](https://travis-ci.org/learnmerust/semver) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+# semver-cli &middot; ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) [![Build Status](https://travis-ci.org/learnmerust/semver-cli.svg?branch=master)](https://travis-ci.org/learnmerust/semver-cli) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 A Rust CLI application for working with the [semver](https://semver.org/) specification
 
