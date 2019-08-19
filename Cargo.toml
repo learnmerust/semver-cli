@@ -5,6 +5,9 @@ authors = ["rickycodes <ricky.miller@gmail.com>"]
 edition = "2018"
 description = "A Rust CLI application for working with the semver specification"
 license = "MIT"
+repository = "https://github.com/learnmerust/semver-cli"
+readme = "README.md"
+keywords = ["semver", "cli"]
 
 [dependencies]
 clap = {version = "2.33", features = ["yaml"]}
